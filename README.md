@@ -21,7 +21,6 @@ This project is a work in progress and help to make the code better would be app
 Honesty is key! Here are a few areas to watch out for:  
 - 🍂 The code right now is not efficient! Whenever there needs to be edits such as adding, removing, re-editing the list. The user must go through the code itself to edit the lines. 
 - 🌪️ The trainer should not remove the app from the history list, otherwise the checkbox will be reset! This is very important when keeping track of cats that have eaten or not.  
-- 🐢 You would need to download Android Studio and learn a bit of programming to understand how to add this on your android phone... or you can just ask me to download it to your phone.
 - 😔 This application only works on android. I am not the best programmer : ( 
 
 ---
@@ -31,6 +30,7 @@ You good with programming? Help me make this more efficient:
 1. 💖 To have the ability for users to edit the cat checklist through their phone in an easy to use manner 
 2. 🐾 To make the program accessible to Apple users
 3. 🌟 To let this application be easier to download either through the Google Playstore or any other means
+4. 🐢 If you are interested in helping out, direct message me and I'll add you to the collaborations : )
 
 ---
 
