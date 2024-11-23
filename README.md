@@ -1,44 +1,38 @@
-# 🌸✨ **Project Name** ✨🌸  
+# 💚✨ **Meow** ✨💚  
 
-Welcome to **Project Name**! 🌟 This is a [short description] of what your project does. It's designed to make your life easier, more fun, and maybe a little cuter! 🐾✨  
+Welcome to **Meow**! 🌟 This is a cat attendance tracker used by trainers to take note of the DLSU cat's attendance! 🐾✨  
 
 ---
 
 ## 🌷 **Introduction**  
-This project is all about [brief explanation]. Whether you're a developer, a hobbyist, or just curious, dive in and enjoy exploring! 🍬  
+This project is a work in progress and help to make the code better would be appreceated. This program displays all the name of the cats in a checkbox manner. Selecting the checkbox will display its name at a textbox below the application. Selecting the "Copy n' Clear" button will copy the text to your phone, allowing the trainer to paste the cat list to the main GC without the need for typing the cats individually. (Very kewl yah~) 🍬  
 
 ---
 
-## 🌟 **Pros**  
-Why you'll love it:  
-- 🌸 **User-Friendly:** Easy to understand and use.  
-- 🌼 **Customizable:** Adapt it to fit your needs.  
-- 🦋 **Efficient:** Optimized for performance.  
+## 🌟 **Pros**   
+- 🌸 **Time Efficient:** Allowing the trainer to focus on other matters without the need for typing the cats name all the time.  
+- 🌼 **Easy to Remember:** Having a list of all the cat names makes it easier for the trainer to remember their names even if they haven't trained for a long time.  
+- 🦋 **Special Diets:** Aside from the name placed on the checkbox, their diets is also listed beside it allowing the trainer to know their special diet without trying to remember or do excessive experiments.   
 - 🌈 **Aesthetic:** It's not just functional, it's cute! 🐾  
 
 ---
 
 ## 🌧️ **Cons**  
 Honesty is key! Here are a few areas to watch out for:  
-- 🍂 May require [specific dependency].  
-- 🌪️ Compatibility may vary on [specific platforms].  
-- 🐢 Updates are not real-time but on a set schedule.  
+- 🍂 The code right now is not efficient! Whenever there needs to be edits such as adding, removing, re-editing the list. The user must go through the code itself to edit the lines. 
+- 🌪️ The trainer should not remove the app from the history list, otherwise the checkbox will be reset! This is very important when keeping track of cats that have eaten or not.  
+- 🐢 You would need to download Android Studio and learn a bit of programming to understand how to add this on your android phone... or you can just ask me to download it to your phone.
+- 😔 This application only works on android. I am not the best programmer : ( 
 
 ---
 
 ## 🎀 **Recommendations**  
-Here are some tips to get the most out of this project:  
-1. 💖 Follow the setup instructions closely.  
-2. 🐾 Check out the included examples for inspiration.  
-3. 🌟 Don’t be afraid to contribute your ideas!  
-
----
-
-## 🌺 **Connect with Us!**  
-Got questions, feedback, or want to share your project using this? Let’s connect!  
-📘 **Follow us on Facebook**: [facebook.com/your-facebook-page](https://facebook.com/your-facebook-page)  
+You good with programming? Help me make this more efficient:  
+1. 💖 To have the ability for users to edit the cat checklist through their phone in an easy to use manner 
+2. 🐾 To make the program accessible to Apple users
+3. 🌟 To let this application be easier to download either through the Google Playstore or any other means
 
 ---
 
 ## 🐻💌 **Thank You!**  
-Thank you for checking out **Project Name**! If you find this helpful or enjoyable, don’t forget to give it a ⭐ to show some love!  
+Kiat-kiat is best cat! Second best is Batmeow!  
