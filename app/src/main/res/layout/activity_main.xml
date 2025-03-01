@@ -1,477 +1,185 @@
-<?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:padding="16dp"
+    android:background="@color/background">
 
-    <RelativeLayout
-        android:id="@+id/main"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="16dp">
 
+        <!-- Section Containers -->
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_centerInParent="true"
-            android:orientation="vertical">
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="St. Joseph"
-                    android:textSize="48sp"
-                    android:textStyle="bold" />
-                <CheckBox
-                    android:id="@+id/checkBox1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Squiddyboi 🐙"/>
-                <CheckBox
-                    android:id="@+id/checkBox2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="White Beanie - Smartheart"/>
-                <CheckBox
-                    android:id="@+id/checkBox3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Rizalina - Smartheart"/>
-                <CheckBox
-                    android:id="@+id/checkBox4"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Pochacco"/>
-                <CheckBox
-                    android:id="@+id/checkBox5"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/window"
+            android:elevation="4dp"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginHorizontal="4dp">
 
-                    android:text="Kunochi"
-                     />
-                <CheckBox
-                    android:id="@+id/checkBox6"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-
-                    android:text="Goldie"
-                     />
-                <CheckBox
-                    android:id="@+id/checkBox7"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-
-                    android:text="Gold"
-                  />
-                <CheckBox
-                    android:id="@+id/checkBox8"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-
-                    android:text="Sprint"
-                    />
-                <CheckBox
-                    android:id="@+id/checkBox9"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-
-                    android:text="Pumpkin Pie 🎃"
-                    />
-
-                <CheckBox
-                    android:id="@+id/checkBox10"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-
-                    android:text="Alpina"
-                     />
-                <CheckBox
-                    android:id="@+id/checkBox11"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-
-                    android:text="BlahBlah"
-                     />
-                <CheckBox
-                    android:id="@+id/checkBox12"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-
-                    android:text="Betty Boob - Smartheart"
-                     />
-                <CheckBox
-                    android:id="@+id/checkBox13"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-
-                    android:text="Whitey"
-                    />
-                <CheckBox
-                    android:id="@+id/checkBox14"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-
-                    android:text="Wanda"
-                     />
-                <CheckBox
-                    android:id="@+id/checkBox15"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-
-                    android:text="Periwinkle (｡•̀ᴗ-)✧"
-                     />
-
-                <CheckBox
-                    android:id="@+id/checkBox16"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-
-                    android:text="Scarlett"
-                     />
-
-                <CheckBox
-                    android:id="@+id/checkBox17"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-
-                    android:text="Sandy - Bravo"
-                    />
-                <CheckBox
-                    android:id="@+id/checkBox18"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-
-                    android:text="Itsy Bitsy - Bravo"
-                    />
-                <CheckBox
-                    android:id="@+id/checkBox19"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-
-                    android:text="Grease - Smartheart"
-                     />
-                <CheckBox
-                    android:id="@+id/checkBox20"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-
-                    android:text="Glee"
-                    />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Miguel"
-                    android:textSize="48sp"
-                    android:textStyle="bold" />
-                <CheckBox
-                    android:id="@+id/checkBox21"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-
-                    android:text="Vongole - FG"
-                     />
-                <CheckBox
-                    android:id="@+id/checkBox22"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-
-                    android:text="Genki - Smartheart"
-                     />
-                <CheckBox
-                    android:id="@+id/checkBox23"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-
-                    android:text="Teriyaki - FG"
-                     />
-                <CheckBox
-                    android:id="@+id/checkBox24"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-
-                    android:text="Sweetcorn 🐥- Bravo"
-                    />
-                <CheckBox
-                    android:id="@+id/checkBox25"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-
-                    android:text="Patty - FG"
-                     />
-                <CheckBox
-                    android:id="@+id/checkBox26"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-
-                    android:text="Mini-Meow"
-                    />
-                <CheckBox
-                    android:id="@+id/checkBox27"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-
-                    android:text="Salik Brown"
-                     />
-                <CheckBox
-                    android:id="@+id/checkBox28"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-
-                    android:text="Chestnut 🥜"
-                     />
-                <CheckBox
-                    android:id="@+id/checkBox29"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-
-                    android:text="Jafar"
-                    />
-                <CheckBox
-                    android:id="@+id/checkBox30"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-
-                    android:text="Kokeshi"
-                     />
-                <CheckBox
-                    android:id="@+id/checkBox31"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-
-                    android:text="Kermit - Bravo"
-                     />
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Velasco"
-                    android:textSize="48sp"
-                    android:textStyle="bold" />
-
-                <CheckBox
-                    android:id="@+id/checkBox32"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-
-                    android:text="Turumpo 🎺"
-                    />
-                <CheckBox
-                    android:id="@+id/checkBox33"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-
-                    android:text="Cheese Curl"
-                     />
-                <CheckBox
-                    android:id="@+id/checkBox34"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-
-                    android:text="Marmalade"
-                    />
-
-                <CheckBox
-                    android:id="@+id/checkBox35"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-
-                    android:text="Hashbrown"
-                    />
-                <CheckBox
-                    android:id="@+id/checkBox36"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-
-                    android:text="Soba"
-                     />
-
-                <CheckBox
-                    android:id="@+id/checkBox37"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-
-                    android:text="Snowflake ❄️"
-                     />
-
-                <CheckBox
-                    android:id="@+id/checkBox38"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-
-                    android:text="Aboo"
-                    />
-                <CheckBox
-                    android:id="@+id/checkBox39"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-
-                    android:text="Paotsin"
-                     />
-
-                <CheckBox
-                    android:id="@+id/checkBox40"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-
-                    android:text="Willow"
-                     />
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="CADS"
-                    android:textSize="48sp"
-                    android:textStyle="bold" />
-                <CheckBox
-                    android:id="@+id/checkBox41"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-
-                    android:text="Dweety - Pate/ Smartheart"
-                     />
-                <CheckBox
-                    android:id="@+id/checkBox42"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-
-                    android:text="Koffee Cat ☕"
-                    />
-                <CheckBox
-                    android:id="@+id/checkBox43"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-
-                    android:text="Gray Panther - FG"
-                    />
-                <CheckBox
-                    android:id="@+id/checkBox44"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-
-                    android:text="Grayhound"
-                    />
-                <CheckBox
-                    android:id="@+id/checkBox45"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-
-                    android:text="Peekaboo"
-                    />
-                <CheckBox
-                    android:id="@+id/checkBox46"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-
-                    android:text="Milky 🥛"
-                    />
-                <CheckBox
-                    android:id="@+id/checkBox47"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-
-                    android:text="Nightowl 🦉"
-                    />
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="LS/ Yuch"
-                    android:textSize="48sp"
-                    android:textStyle="bold" />
-                <!-- Best cat-->
-                <CheckBox
-                    android:id="@+id/checkBox48"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="KiatKiat 🔥- Pate/ Smartheart"
-                    />
-                <CheckBox
-                    android:id="@+id/checkBox49"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-
-                    android:text="Ebi 🦐"
-                   />
-                <CheckBox
-                    android:id="@+id/checkBox50"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-
-                    android:text="Batmeow 🦇"
-                   />
-                <CheckBox
-                    android:id="@+id/checkBox51"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-
-                    android:text="Chocnut - Bravo"
-                    />
-                <CheckBox
-                    android:id="@+id/checkBox52"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-
-                    android:text="Casper 👻"
-                    />
-                <CheckBox
-                    android:id="@+id/checkBox53"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-
-                    android:text="Grayvenger - Bravo/ Smartheart"
-                />
-
-                <CheckBox
-                    android:id="@+id/checkBox54"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Blackito"
-                   />
-                <CheckBox
-                    android:id="@+id/checkBox55"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-
-                    android:text="ChooChow"
-             />
-
-
-            </LinearLayout>
-
-            <!-- Text Box -->
             <TextView
-                android:id="@+id/textBox"
-                android:layout_width="match_parent"
+                android:id="@+id/section_sj"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Text will appear here"
-                android:textColor="@android:color/white"
-                android:textSize="18sp"
-                android:background="#4CAF50"
-                android:gravity="center"
-                android:padding="16dp"
-                android:layout_marginTop="20dp" />
+                android:text="St. Joseph Hall"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:textColor="@color/text"
+                android:paddingBottom="8dp"
+                android:background="@android:color/transparent"/>
 
-            <!-- Buttons -->
             <LinearLayout
+                android:id="@+id/container_sj"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:gravity="center"
-                android:layout_marginTop="20dp">
-
-                <Button
-                    android:id="@+id/copyButton"
-                    android:layout_width="200dp"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="10dp"
-                    android:text="Copy n' Clear" />
-
-            </LinearLayout>
-
+                android:orientation="vertical"/>
         </LinearLayout>
 
-    </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/window"
+            android:elevation="4dp"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginHorizontal="4dp">
 
+            <TextView
+                android:id="@+id/section_migs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="St. Miguel Hall"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:textColor="@color/text"
+                android:paddingBottom="8dp"
+                android:background="@android:color/transparent"/>
+
+            <LinearLayout
+                android:id="@+id/container_migs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/window"
+            android:elevation="4dp"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginHorizontal="4dp">
+
+            <TextView
+                android:id="@+id/section_vel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Velasco Hall"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:textColor="@color/text"
+                android:paddingBottom="8dp"
+                android:background="@android:color/transparent"/>
+
+            <LinearLayout
+                android:id="@+id/container_vel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/window"
+            android:elevation="4dp"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginHorizontal="4dp">
+
+            <TextView
+                android:id="@+id/section_cads"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C.A.D.S."
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:textColor="@color/text"
+                android:paddingBottom="8dp"
+                android:background="@android:color/transparent"/>
+
+            <LinearLayout
+                android:id="@+id/container_cads"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/window"
+            android:elevation="4dp"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginHorizontal="4dp">
+
+            <TextView
+                android:id="@+id/section_ls"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="St. La Salle Hall"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:textColor="@color/text"
+                android:paddingBottom="8dp"
+                android:background="@android:color/transparent"/>
+
+            <LinearLayout
+                android:id="@+id/container_ls"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"/>
+        </LinearLayout>
+
+        <!-- Selected Items Display -->
+        <TextView
+            android:id="@+id/textBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Selected items will appear here"
+            android:textSize="20sp"
+            android:textColor="#555555"
+            android:padding="12dp"
+            android:background="@android:color/white"
+            android:elevation="4dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginHorizontal="4dp" />
+
+        <!-- Copy Button -->
+        <Button
+            android:id="@+id/copyButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🐱 ねこ 🐱"
+            android:backgroundTint="#673AB7"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"/>
+    </LinearLayout>
 </ScrollView>
