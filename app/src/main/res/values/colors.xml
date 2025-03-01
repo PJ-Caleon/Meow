@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#F8EFFF</color>  <!-- Soft pastel lavender (background) -->
+    <color name="window">#D3B7FF</color>     <!-- Light purple (panels/windows) -->
+    <color name="text">#333333</color>       <!-- Dark gray for readability -->
+    <color name="check">#C062B3</color>      <!-- Soft magenta-pink for checkboxes -->
+</resources>
