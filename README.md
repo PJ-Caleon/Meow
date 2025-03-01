@@ -4,8 +4,11 @@ Welcome to **Meow**! 🌟 This is a cat attendance tracker used by trainers to t
 
 ---
 
+## **Download App**
+https://drive.google.com/file/d/1R_FgMdpv4Z28IVQ9ji8btBimWYFsnO2v/view?usp=sharing
+
 ## 🌷 **Introduction**  
-This project is a work in progress and help to make the code better would be appreceated. This program displays all the name of the cats in a checkbox manner. Selecting the checkbox will display its name at a textbox below the application. Selecting the "Copy n' Clear" button will copy the text to your phone, allowing the trainer to paste the cat list to the main GC without the need for typing the cats individually. (Very kewl yah~) 🍬  
+This project is a work in progress and help to make the code better would be appreceated. This program displays all the name of the cats in a checkbox manner. Selecting the checkbox will display its name at a textbox below the application. Selecting the button will copy the text to your phone, allowing the trainer to paste the cat list to the main GC without the need for typing the cats individually. (Very kewl yah~) 🍬  
 
 ---
 
