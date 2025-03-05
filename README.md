@@ -9,10 +9,10 @@ Welcome to **Meow**! 🌟 This is a cat attendance tracker designed for trainers
 
 ---
 ## **📌 Version 1 (November 23, 2024)**  
-- 📂 **Improved Database System** – Allows for flexible backend adjustments to the dataset  
-- Checkbox of all cats
-- Copy paste button
-- Hard Coded Databse within the Layout file
+- 🛢 **Hardcoded Database System** – The initial version featured a basic, built-in dataset within the layout file.  
+- ✅ **Checkbox for All Cats** – Easily mark attendance by selecting checkboxes.  
+- 📋 **Copy-Paste Button** – Instantly copy the checked names and paste them into the chat.  
+
 
 ## **📌 Version 2 (March 2, 2025)**  
 - 📂 **Improved Database System** – Allows for flexible backend adjustments to the dataset  
@@ -21,9 +21,10 @@ Welcome to **Meow**! 🌟 This is a cat attendance tracker designed for trainers
 - 🖤 **Kuromi-Themed** (because why not? 😌)  
 
 
-## **📌 Version 3  - FINAL (March 6, 2025)**  
-- ✏️ **Editable List within the app**
-- 🛢 **Built in SQL Database**  
+## **📌 Version 3 - FINAL (March 6, 2025)**  
+- ✏️ **Editable List Within the App** – Add, remove, or update cat names directly in the app.  
+- 🛢 **Built-in SQL Database** – Ensures data is stored and persists even after closing the app.  
+
 ---
 
 ## 🌷 **Introduction**  
