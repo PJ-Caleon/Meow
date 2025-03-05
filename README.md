@@ -8,6 +8,11 @@ Welcome to **Meow**! 🌟 This is a cat attendance tracker designed for trainers
 [Click here to download!](https://drive.google.com/file/d/1R_FgMdpv4Z28IVQ9ji8btBimWYFsnO2v/view?usp=sharing)  
 
 ---
+## **📌 Version 1 (November, 2024)**  
+- 📂 **Improved Database System** – Allows for flexible backend adjustments to the dataset  
+- Checkbox of all cats
+- Copy paste button
+- Hard Coded Databse within the Layout file
 
 ## **📌 Version 2 (March 2, 2025)**  
 - 📂 **Improved Database System** – Allows for flexible backend adjustments to the dataset  
@@ -15,6 +20,10 @@ Welcome to **Meow**! 🌟 This is a cat attendance tracker designed for trainers
 - 🎨 **Cleaner UI**  
 - 🖤 **Kuromi-Themed** (because why not? 😌)  
 
+
+## **📌 Version 3  - FINAL (March 6, 2025)**  
+- ✏️ **Editable List within the app**
+- 🛢 **Built in SQL Database**  
 ---
 
 ## 🌷 **Introduction**  
@@ -34,7 +43,6 @@ The app displays a list of cat names in a **checkbox format**. When a checkbox i
 
 ## 🌧️ **Things to Consider (Cons)**  
 Honesty is key! Here are some current limitations:  
-- 🍂 **Manual Updates Required:** Adding, removing, or editing the cat list requires modifying the code directly.  
 - 🌪️ **App History Matters:** The app should not be removed from history, or the checkbox selections will reset. This is **important** for tracking which cats have eaten!  
 - 😔 **Android-Only:** Unfortunately, this app **only works on Android** (I’m not the best programmer, okay? 😭).  
 
@@ -42,10 +50,9 @@ Honesty is key! Here are some current limitations:
 
 ## 🎀 **Future Improvements (Contributions Welcome!)**  
 If you’re good at programming, I’d love your help making this app better:  
-1. 💖 **Editable Checklist:** Allow users to modify the cat list directly in the app.  
-2. 🐾 **Cross-Platform Support:** Make the app available for **Apple users**.  
-3. 🌟 **Easier Installation:** Publish it on the **Google Play Store** or provide a smoother download method.  
-4. 🐢 **Want to help?** Send me a DM, and I’ll add you to the project’s collaborators!  
+1. 🐾 **Cross-Platform Support:** Make the app available for **Apple users**.  
+2. 🌟 **Easier Installation:** Publish it on the **Google Play Store** or provide a smoother download method.  
+3. 🐢 **Want to help?** Send me a DM, and I’ll add you to the project’s collaborators!  
 
 ---
 
