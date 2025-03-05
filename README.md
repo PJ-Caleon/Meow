@@ -8,7 +8,7 @@ Welcome to **Meow**! 🌟 This is a cat attendance tracker designed for trainers
 [Click here to download!](https://drive.google.com/file/d/1R_FgMdpv4Z28IVQ9ji8btBimWYFsnO2v/view?usp=sharing)  
 
 ---
-## **📌 Version 1 (November, 2024)**  
+## **📌 Version 1 (November 23, 2024)**  
 - 📂 **Improved Database System** – Allows for flexible backend adjustments to the dataset  
 - Checkbox of all cats
 - Copy paste button
