@@ -28,8 +28,6 @@ Welcome to **Meow**! 🌟 This is a cat attendance tracker designed for trainers
 ---
 
 ## 🌷 **Introduction**  
-This project is still a work in progress, and contributions to improve the code are highly appreciated!  
-
 The app displays a list of cat names in a **checkbox format**. When a checkbox is selected, the cat’s name appears in a text box below. A button allows users to **copy the list to their clipboard**, making it easy to paste into the main group chat—no need to type names manually! (Very kewl, yah~ 🍬)  
 
 ---
