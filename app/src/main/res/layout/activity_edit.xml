@@ -1,0 +1,138 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="St. Joseph Hall"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:textColor="@color/text"
+            android:paddingBottom="8dp"
+            android:background="@android:color/transparent"/>
+
+        <EditText
+            android:id="@+id/editSJ"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter text 1"
+            android:padding="12dp"
+            android:textColor="@color/text"
+            android:textSize="16sp"
+            android:gravity="center_vertical"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/edittext_border"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="St. Miguel Hall"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:textColor="@color/text"
+            android:paddingBottom="8dp"
+            android:background="@android:color/transparent"/>
+
+        <EditText
+            android:id="@+id/editMigs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter text 2"
+            android:padding="12dp"
+            android:textColor="@color/text"
+            android:textSize="16sp"
+            android:gravity="center_vertical"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/edittext_border"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Velasco Hall"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:textColor="@color/text"
+            android:paddingBottom="8dp"
+            android:background="@android:color/transparent"/>
+
+        <EditText
+            android:id="@+id/editVel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter text 2"
+            android:padding="12dp"
+            android:textColor="@color/text"
+            android:textSize="16sp"
+            android:gravity="center_vertical"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/edittext_border"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C.A.D.S."
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:textColor="@color/text"
+            android:paddingBottom="8dp"
+            android:background="@android:color/transparent"/>
+
+        <EditText
+            android:id="@+id/editCADS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter text 2"
+            android:padding="12dp"
+            android:textColor="@color/text"
+            android:textSize="16sp"
+            android:gravity="center_vertical"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/edittext_border"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="St. La Salle Hall"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:textColor="@color/text"
+            android:paddingBottom="8dp"
+            android:background="@android:color/transparent"/>
+
+        <EditText
+            android:id="@+id/editLS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter text 2"
+            android:padding="12dp"
+            android:textColor="@color/text"
+            android:textSize="16sp"
+            android:gravity="center_vertical"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/edittext_border"/>
+
+
+
+        <Button
+            android:id="@+id/saveButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:backgroundTint="#673AB7"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="16dp" />
+
+    </LinearLayout>
+
+</ScrollView>
